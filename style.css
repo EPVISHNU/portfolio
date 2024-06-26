@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans+Narrow&family=Pacifico&family=Quicksand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+   
+}
+nav{
+    background-color: rgb(117, 247, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    position: sticky;
+    top: 0;
+
+}
+nav ul{
+    display:flex ;
+}
+nav ul li a{
+    display: flex;
+    text-decoration: none;
+    margin: 30px;
+    color: rgb(56, 88, 88);
+}
+h2{
+    text-align: center;
+    color: rgb(71, 93, 93);
+    margin: 1%;
+}
+nav ul li a:hover{
+    color: rgb(31, 29, 29);
+    text-shadow: 2px 4px 4px;
+}
+
+.fnd{
+    margin: 20px;
+    border: 2px solid;
+    border-color: rgb(142, 241, 246);
+    display: flex;
+    border-radius: 5px;
+    background: linear-gradient(to top,rgb(95, 168, 174) 50%,whitesmoke 50%);
+background-size: 100% 200%;
+transition: all 0.8s;
+
+}
+.founded{
+    width: 750px;
+}
+/* .fnd img{
+    box-shadow: 2px 4px 4px ;
+
+} */
+h2:hover{
+    color: darkslategray;
+}
+.fnd:hover{
+    box-shadow: 2px 3px 3px   rgb(169, 233, 243);
+    background-position: left bottom;
+}
+.amda{
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+.found{
+/* text-align: center; */
+width: 50%;
+}
+.found{
+    width: 750px;
+}
+.fnda{
+    margin: 20px;
+   border: 2px solid;
+   border-color: black;
+}
+.amg{
+    background-color: black;
+}
+.amgaa{
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+}
+.amga a{
+    color: aquamarine;
+    text-decoration: none;
+    margin: 30px;
+}
+.lnk{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.amgaa:hover{
+    color:darkslategra ;
+}
+
+.aboutamd{
+    margin: 3%;
+}
+
+
+.im{
+    border: .5px solid ;
+    border-color: rgb(219, 219, 219);
+}
+
+.im:hover{
+    box-shadow: 2px 2px 3px   rgb(190, 190, 190);
+    background-position: left bottom;
+}
+
+
+.investm{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2%;
+    margin-top: 3%;
+    margin-bottom: 3.5%;
+}
+
+.container{
+     display: flex; 
+    margin-bottom: 2%;
+    justify-content: center;
+}
+
+.container img{
+    width: 60%;
+  
+}
+
+
+
+@media  screen and(max-width:400px) {
+  nav{
+    width: 400px;
+    padding: 0;
+    margin: 0;
+
+}  
+  main{
+    width: 400px;
+
+  }
+ nav ul li{
+    margin: 0;
+ }
+ /* .amda{
+    display:;
+ } */
+}
+
+a{
+    text-decoration: none;
+}
+
+
